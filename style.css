@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(14, 234, 227);
+    text-align: center;
+}
+.container{
+
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+
+    
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.btn{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    font-size: 8vmin;
+    color: brown;
+    background-color: #ffffc7;
+}
+#reset{
+    padding: 1vmin;
+    padding: 10px;
+    color: white;
+    background-color: #191913;
+    border-radius: 10px;
+    border-radius: 0 0 1rem rgba(0,0,0,0.2);
+}
+#new-button{
+    padding: 1vmin;
+    padding: 10px;
+    color: white;
+    background-color: #191913;
+    border-radius: 10px;
+    border-radius: 0 0 1rem rgba(0,0,0,0.2);
+}
+#msg{
+    color: #ffffc7;
+    font-size: 3vmin;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.msg-container{
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
